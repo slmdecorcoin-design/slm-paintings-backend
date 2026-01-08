@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SLM Paintings",
+    "slug": "slm-paintings",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./public/favicon.ico",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.slmpaintings.app"
+    },
+    "web": {
+      "favicon": "./public/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "42a2149e-37cd-400a-80d6-db5c03492e7d"
+      }
+    }
+  }
+}

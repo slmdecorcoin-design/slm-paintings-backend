@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.slmpaintings.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>SLM Paintings</name>
+    <description>Premium art paintings from SLM Paintings collection</description>
+    <author email="contact@slmpaintings.com" href="https://www.example.com">SLM Paintings</author>
+    
+    <content src="index.html" />
+    
+    <!-- Permissions -->
+    <access origin="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    
+    <!-- Android Preferences -->
+    <preference name="orientation" value="portrait" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="android-minSdkVersion" value="23" />
+    <preference name="android-targetSdkVersion" value="33" />
+    <preference name="Whitelist" value="true" />
+    <preference name="stay-in-webview" value="true" />
+    
+    <!-- Status Bar -->
+    <preference name="StatusBarBackgroundColor" value="#000000" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+    
+    <!-- Splash Screen -->
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SplashScreenDelay" value="3000" />
+    
+    <!-- Plugins -->
+    <plugin name="cordova-plugin-inappbrowser" spec="latest" />
+    <plugin name="cordova-plugin-geolocation" spec="latest" />
+    <plugin name="cordova-plugin-camera" spec="latest" />
+    
+    <!-- Icons -->
+    <icon src="www/assets/logo.png" />
+    
+    <!-- Features -->
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.GeolocationListener" />
+    </feature>
+</widget>
