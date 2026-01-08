@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "strict": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/server.ts",
+    "src/services/**/*",
+    "src/api/**/*",
+    "src/config/**/*",
+    "src/utils/**/*"
+  ],
+  "exclude": [
+    "src/components",
+    "src/pages",
+    "src/hooks",
+    "src/screens",
+    "src/navigation",
+    "src/lib",
+    "**/*.tsx",
+    "**/*.jsx"
+  ]
+}
