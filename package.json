@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc -p tsconfig.server.json",
-    "start": "node dist/server.js",
+    "start": "node src/server.js",
     "dev": "vite",
     "build:vite": "vite build",
     "build:dev": "vite build --mode development",
